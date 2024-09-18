@@ -1,10 +1,11 @@
 /* Header Styles */
-
 header {
     background-color: #29303D;
     font-family: 'Source Sans Pro';
+    color: #ffffff;
 }
 
+/* Navigation Bar Styles */
 header nav a {
     color: white; /* text color white */
     text-transform: uppercase; /*convert all text uppercase*/
@@ -24,7 +25,20 @@ svg {
     height: 100px;
 }
 
+/* Custom Font */
 @font-face {
     font-family: 'Source Sans Pro';
     src: url(./fonts/SourceSansPro-Black.otf) format("opentype");
+}
+
+/* Get Schooled */
+.get-schooled-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.get_schooled {
+    font-size: 120px;
+    text-align: center;
 }
