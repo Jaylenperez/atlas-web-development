@@ -1,0 +1,24 @@
+/* Header Styles */
+
+header {
+    background-color: #29303D;
+    font-family: 'Source Sans Pro';
+}
+
+header nav a {
+    color: white; /* text color white */
+    text-transform: uppercase; /*convert all text uppercase*/
+    text-decoration: none; /* remove default underline from links */
+    font-size: 12px;
+}
+
+/* Smile School SVG Styles */
+svg {
+    width: 100px;
+    height: 100px;
+}
+
+@font-face {
+    font-family: 'Source Sans Pro';
+    src: url(./fonts/SourceSansPro-Black.otf) format("opentype");
+}
