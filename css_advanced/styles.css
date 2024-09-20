@@ -1,9 +1,14 @@
 /* Global Styles */
-
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+}
+
+/* Custom Font */
+@font-face {
+    font-family: 'Source Sans Pro';
+    src: url(./fonts/SourceSansPro-Black.otf) format("opentype");
 }
 
 /* Header Styles */
@@ -15,6 +20,12 @@ header {
     background-position: center top;
     background-repeat: no-repeat;
     height: auto;
+}
+
+.header a {
+    position: relative;
+    top: -20px;
+    left: 100px;
 }
 
 /* Navigation Bar Styles */
@@ -36,12 +47,6 @@ header nav a {
 svg {
     width: 100px;
     height: 100px;
-}
-
-/* Custom Font */
-@font-face {
-    font-family: 'Source Sans Pro';
-    src: url(./fonts/SourceSansPro-Black.otf) format("opentype");
 }
 
 /* Get Schooled Container */
