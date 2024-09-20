@@ -1,10 +1,20 @@
+/* Global Styles */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 /* Header Styles */
 header {
     font-family: 'Source Sans Pro';
     color: #ffffff;
     background-image: url("images/pic_1.jpg");
-    background-size: 1000px 1000px;
+    background-size: cover;
     background-position: center top;
+    background-repeat: no-repeat;
+    height: auto;
 }
 
 /* Navigation Bar Styles */
