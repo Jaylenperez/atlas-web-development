@@ -1,20 +1,23 @@
 /* Header Styles */
 header {
-    background-color: #29303D;
     font-family: 'Source Sans Pro';
     color: #ffffff;
+    background-image: url("images/pic_1.jpg");
+    background-size: 1000px 1000px;
+    background-position: center top;
 }
 
 /* Navigation Bar Styles */
 header nav a {
-    color: white; /* text color white */
+    color: white;
     text-transform: uppercase; /*convert all text uppercase*/
     text-decoration: none; /* remove default underline from links */
     font-size: 12px;
 }
 
+/* Positioning Navigation Bar Links To Top Right Corner */
 .nav-links {
-    position: absolute;
+    position: absolute; /* allows precise positioning of navigation */
     top: 10px;
     right: 10px;
 }
@@ -31,27 +34,29 @@ svg {
     src: url(./fonts/SourceSansPro-Black.otf) format("opentype");
 }
 
-/* Get Schooled */
+/* Get Schooled Container */
 .get-schooled-container {
-    display: flex;
+    display: flex; /* flexbox to align elements */
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 100vh; /* set height of container to fill viewport */
 }
+
+/* Get Schooled Text */
 .get_schooled {
     font-size: 120px;
-    text-align: center;
-    font-weight: 700;
-    margin: 146px 0px 0px 0px;
+    text-align: center; /* center text within container */
+    margin: 146px 0px 0px 0px; /* adds space above text, but no space on the sides or bottom */
 }
-/* Smiles Grin Laugh */
+/* Smiles Grin Laugh Section */
 .smiles_grin_laugh {
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 20px; /* Adds 20px of space between each item */
 }
 
 /* Register Button Container */
+/* Centers register button vertically and horizontally */
 .register_button {
     display: flex;
     justify-content: center;
@@ -59,7 +64,7 @@ svg {
     height: 100vh;
 }
 
-/* Button Styles */
+/* Register Button Styles */
 .register_for_free {
     padding: 10px 20px;
     font-size: 16px;
@@ -69,29 +74,33 @@ svg {
     color: #ffffff;
 }
 
-/* Learn From The Pros Heading */
+/* Learn From The Pros Heading Container */
 .pros-heading {
     text-align: center;
-    margin-top: 20px;
+    margin-top: 20px; /* add space above heading */
 }
 
+/* Learn From The Pros h2 */
 .pros-heading h2 {
     font-size: 24px;
 }
 
+/* Professionals Section */
 .professionals-container {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    flex-wrap: wrap; /* Allows items to wrap to the next line if necessary */
+    justify-content: center; /* center profiles horizontally */
     margin-left: 170px;
     margin-right: 170px;
 }
 
+/* Professional Block */
 .professional-block {
-    width: calc(25% - 20px);
-    text-align: center;
+    width: calc(25% - 20px); /* Sets the width of each block to 25% of the container, minus 20px */
+    text-align: center; /* centers content inside each block */
 }
 
+/* Profile Image Styles */
 .profile-img {
     border-radius: 50%;
     max-width: 116px;
@@ -99,6 +108,7 @@ svg {
     margin-bottom: 10px;
 }
 
+/* Text Styles for "Learn" */
 .learn-text {
     color: #C271FF;
 }
