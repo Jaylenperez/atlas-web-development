@@ -61,7 +61,7 @@ svg {
 .get_schooled {
     font-size: 120px;
     text-align: center; /* center text within container */
-    margin: 146px 0px 0px 0px; /* adds space above text, but no space on the sides or bottom */
+    margin: 10vh 0 0 0; /* adds space above text, but no space on the sides or bottom */
 }
 /* Smiles Grin Laugh Section */
 .smiles_grin_laugh {
@@ -87,6 +87,12 @@ svg {
     border-radius: 20px;
     background-color: #C271FF;
     color: #ffffff;
+}
+
+/* hover and focus states for accessibility */
+.register_for_free:hover,
+.register_for_free:focus {
+    background-color: #A653E6; /* Added hover and focus states for accessibility */
 }
 
 /* Learn From The Pros Heading Container */
