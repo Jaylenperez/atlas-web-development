@@ -137,3 +137,90 @@ header {
     font-size: 16px;
     opacity: 0.8;
 }
+
+/* Quote Section Styles */
+.quote {
+    background-color: #C271FF;
+    color: #ffffff;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.quote img {
+    border-radius: 50%;
+    max-width: 116px;
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.quote blockquote {
+    font-family: 'Source Sans Pro';
+    font-weight: normal;
+    margin: 0;
+}
+
+.person-name {
+    font-family: 'Source Sans Pro';
+    font-weight: bold;
+}
+
+.person-title {
+    font-family: 'Source Sans Pro';
+    font-weight: normal;
+    font-style: italic;
+}
+
+/* Video Section Styles */
+.video-section {
+    background-color: white;
+    padding: 20px;
+}
+
+/* Most popular tutorials Styling*/
+.most-popular-tutorials {
+    font-size: 32px;
+    text-align: center;
+}
+
+/* Styles for 'popular' */
+.video-section h1 span.highlight {
+    font-weight: bold;
+    color: #C271FF;
+}
+
+/* Styles for 'Most' */
+.video-section h1::before {
+    font-weight: normal;
+    color: black;
+}
+
+/* Styles for 'tutorials' */
+.video-section h1::after {
+    font-weight: normal;
+    color: black;
+}
+
+.video-block {}
+
+.video-block img {}
+
+.video-block h2 {}
+
+.video-block p {}
+
+.author-into {}
+
+.author-info img {}
+
+.author-info h3 {}
+
+.rating {}
