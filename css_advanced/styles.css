@@ -1,14 +1,15 @@
-/* Global Styles */
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-
 /* Custom Font */
 @font-face {
     font-family: 'Source Sans Pro';
     src: url(./fonts/SourceSansPro-Black.otf) format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Global Layout */
+body {
+    display: flex;
+    flex-wrap: wrap;
 }
 
 /* Header Styles */
@@ -17,70 +18,55 @@ header {
     color: #ffffff;
     background-image: url("images/pic_1.jpg");
     background-size: cover;
-    background-position: center top;
+    background-position: center;
     background-repeat: no-repeat;
-    height: auto;
 }
 
-.header a {
-    position: relative;
-    top: -20px;
-    left: 100px;
+/* Smile School Logo SVG */
+.svg-container {
+
 }
 
-/* Navigation Bar Styles */
-header nav a {
-    color: white;
-    text-transform: uppercase; /*convert all text uppercase*/
-    text-decoration: none; /* remove default underline from links */
-    font-size: 12px;
-}
-
-/* Positioning Navigation Bar Links To Top Right Corner */
-.nav-links {
-    position: absolute; /* allows precise positioning of navigation */
-    top: 10px;
-    right: 10px;
-}
-
-/* Smile School SVG Styles */
-svg {
+.svg-logo {
     width: 100px;
     height: 100px;
 }
 
-/* Get Schooled Container */
-.get-schooled-container {
-    display: flex; /* flexbox to align elements */
-    justify-content: center;
-    align-items: center;
-    height: 100vh; /* set height of container to fill viewport */
+/* Navigation Menu */
+.nav-container {
+    position: relative;
+    width: 100%;
+    height: 60px;
 }
 
-/* Get Schooled Text */
-.get_schooled {
+.nav-menu {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: auto;
+    padding-right: 20px; /* Add padding to push links apart */
+}
+
+/* Banner Styles */
+.get-schooled {
     font-size: 120px;
     text-align: center; /* center text within container */
     margin: 10vh 0 0 0; /* adds space above text, but no space on the sides or bottom */
 }
-/* Smiles Grin Laugh Section */
-.smiles_grin_laugh {
+
+.smiles-grin-laugh {
     display: flex;
     justify-content: center;
     gap: 20px; /* Adds 20px of space between each item */
 }
 
-/* Register Button Container */
-/* Centers register button vertically and horizontally */
-.register_button {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-}
+/* Button */
+.button-container {}
 
-/* Register Button Styles */
-.register_for_free {
+.register-button {
     padding: 10px 20px;
     font-size: 16px;
     cursor: pointer;
@@ -89,47 +75,13 @@ svg {
     color: #ffffff;
 }
 
-/* hover and focus states for accessibility */
-.register_for_free:hover,
-.register_for_free:focus {
-    background-color: #A653E6; /* Added hover and focus states for accessibility */
-}
-
-/* Learn From The Pros Heading Container */
-.pros-heading {
+/* Professionals Styles */
+.learn-from-the-pros {
     text-align: center;
-    margin-top: 20px; /* add space above heading */
+    margin-top: 20px;
 }
 
-/* Learn From The Pros h2 */
-.pros-heading h2 {
-    font-size: 24px;
-}
-
-/* Professionals Section */
-.professionals-container {
-    display: flex;
-    flex-wrap: wrap; /* Allows items to wrap to the next line if necessary */
-    justify-content: center; /* center profiles horizontally */
-    margin-left: 170px;
-    margin-right: 170px;
-}
-
-/* Professional Block */
-.professional-block {
-    width: calc(25% - 20px); /* Sets the width of each block to 25% of the container, minus 20px */
-    text-align: center; /* centers content inside each block */
-}
-
-/* Profile Image Styles */
-.profile-img {
-    border-radius: 50%;
-    max-width: 116px;
-    height: auto;
-    margin-bottom: 10px;
-}
-
-/* Text Styles for "Learn" */
+/* custom styling for 'learn' */
 .learn-text {
     color: #C271FF;
 }
@@ -137,3 +89,28 @@ svg {
 .bold-text {
     font-weight: bold;
 }
+
+.profile-container {
+    display: flex;
+    flex-wrap: wrap; /* Allows items to wrap to the next line if necessary */
+    justify-content: center; /* center profiles horizontally */
+    margin: 0 20px;
+}
+
+.profile-block {
+    width: calc(25% - 20px); /* Sets the width of each block to 25% of the container, minus 20px */
+    text-align: center; /* centers content inside each block */
+    margin: 10px;
+}
+
+.profile-img {
+    border-radius: 50%;
+    max-width: 116px;
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.profile-name {}
+
+.profile-desc {}
