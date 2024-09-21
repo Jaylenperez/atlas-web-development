@@ -8,8 +8,8 @@
 
 /* Global Layout */
 body {
-    display: flex;
-    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
 }
 
 /* Header Styles */
@@ -23,10 +23,6 @@ header {
 }
 
 /* Smile School Logo SVG */
-.svg-container {
-
-}
-
 .svg-logo {
     width: 100px;
     height: 100px;
@@ -50,33 +46,41 @@ header {
     padding-right: 20px; /* Add padding to push links apart */
 }
 
+.nav-menu nav a {
+    margin-left: 20px;
+}
+
 /* Banner Styles */
-.get-schooled {
+/* Get Schooled */
+.banner h1 {
     font-size: 120px;
     text-align: center; /* center text within container */
     margin: 10vh 0 0 0; /* adds space above text, but no space on the sides or bottom */
 }
 
-.smiles-grin-laugh {
+/* SMILES GRIN LAUGH */
+.banner p {
     display: flex;
     justify-content: center;
     gap: 20px; /* Adds 20px of space between each item */
+    text-align: center;
 }
 
 /* Button */
-.button-container {}
-
-.register-button {
+.banner-button {
     padding: 10px 20px;
     font-size: 16px;
     cursor: pointer;
     border-radius: 20px;
     background-color: #C271FF;
     color: #ffffff;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* Professionals Styles */
-.learn-from-the-pros {
+.banner h2 {
     text-align: center;
     margin-top: 20px;
 }
