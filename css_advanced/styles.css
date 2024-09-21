@@ -183,13 +183,11 @@ header {
 .video-section {
     background-color: white;
     padding: 20px;
-    display: flex;
-    align-items: center;
 }
 
-.video-header h1 {
+.video-header-container {
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 /* Most popular tutorials Styling*/
@@ -216,14 +214,19 @@ header {
     color: black;
 }
 
+.video-blocks-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
 /* Video Block Styles */
 .video-block {
-    width: 255px;
-    height: 335px;
+    width: calc(25% - 20px);
+    height: auto;
     display: flex;
     flex-direction: column;
     border-radius: 0;
-    margin: 0 8px;
 }
 
 .video-block img {
@@ -234,14 +237,41 @@ header {
     margin-bottom: 10px;
 }
 
-.video-block h2 {}
+/* Video Title */
+.video-block h2 {
+    margin-top: 10px;
+}
 
+/* Video Description */
 .video-block p {}
 
-.author-into {}
+/* author info container? */
+.author-info {}
 
+/* Author Image */
 .author-info img {}
 
+/* Author Name */
 .author-info h3 {}
 
+/* Star Rating Styling */
 .rating {}
+
+/* MEMBERSHIP SECTION */
+.membership {
+    background-color: #071629;
+    padding: 20px;
+    color: #ffffff;
+}
+
+/* Style the h1 for the membership section */
+.membership h1 {
+    font-size: 32px;
+    font-weight: normal;
+    text-align: center;
+}
+
+.membership h1 .free {
+    font-weight: bold;
+    color: #C271FF;
+}
