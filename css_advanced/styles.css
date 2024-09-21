@@ -1,7 +1,15 @@
-/* Custom Font */
+/* Custom Font: Normal */
 @font-face {
     font-family: 'Source Sans Pro';
-    src: url(./fonts/SourceSansPro-Black.otf) format("opentype");
+    src: url(./fonts/SourceSansPro-Regular.otf) format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Custom Font: Bold */
+@font-face {
+    font-family: 'Source Sans Pro';
+    src: url(./fonts/SourceSandPro-Bold.otf) format("opentype");
     font-weight: normal;
     font-style: normal;
 }
@@ -15,6 +23,7 @@ body {
 /* Header Styles */
 header {
     font-family: 'Source Sans Pro';
+    font-weight: bold;
     color: #ffffff;
     background-image: url("images/pic_1.jpg");
     background-size: cover;
@@ -122,6 +131,8 @@ header {
 }
 
 .profile-desc {
+    font-family: 'Source Sans Pro';
+    font-weight: normal;
     font-style: italic;
     font-size: 16px;
     opacity: 0.8;
