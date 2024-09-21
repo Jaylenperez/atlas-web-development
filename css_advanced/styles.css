@@ -47,7 +47,9 @@ header {
 }
 
 .nav-menu nav a {
-    margin-left: 20px;
+    margin-left: 35px;
+    text-decoration: none;
+    color: #ffffff;
 }
 
 /* Banner Styles */
@@ -115,6 +117,12 @@ header {
     margin-bottom: 10px;
 }
 
-.profile-name {}
+.profile-name {
+    font-size: 18;
+}
 
-.profile-desc {}
+.profile-desc {
+    font-style: italic;
+    font-size: 16px;
+    opacity: 0.8;
+}
