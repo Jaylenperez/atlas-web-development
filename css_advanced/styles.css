@@ -1,4 +1,4 @@
-/* Custom Font: Normal */
+/* CUSTOM FONT: NORMAL */
 @font-face {
     font-family: 'Source Sans Pro';
     src: url(./fonts/SourceSansPro-Regular.otf) format("opentype");
@@ -6,7 +6,7 @@
     font-style: normal;
 }
 
-/* Custom Font: Bold */
+/* CUSTOM FONT: BOLD */
 @font-face {
     font-family: 'Source Sans Pro';
     src: url(./fonts/SourceSandPro-Bold.otf) format("opentype");
@@ -14,13 +14,13 @@
     font-style: normal;
 }
 
-/* Global Layout */
+/* GLOBAL STYLES */
 body {
     margin: 0;
     padding: 0;
 }
 
-/* Header Styles */
+/* HEADER STYLES */
 header {
     font-family: 'Source Sans Pro';
     font-weight: bold;
@@ -31,19 +31,20 @@ header {
     background-repeat: no-repeat;
 }
 
-/* Smile School Logo SVG */
+/* SMILE LOGO SVG */
 .svg-logo {
     width: 100px;
     height: 100px;
 }
 
-/* Navigation Menu */
+/* NAV MENU CONTAINER */
 .nav-container {
     position: relative;
     width: 100%;
     height: 60px;
 }
 
+/* NAV MENU */
 .nav-menu {
     position: absolute;
     top: 0;
@@ -55,14 +56,15 @@ header {
     padding-right: 20px; /* Add padding to push links apart */
 }
 
+/* COURSES PRICING LOGIN */
 .nav-menu nav a {
     margin-left: 35px;
     text-decoration: none;
     color: #ffffff;
 }
 
-/* Banner Styles */
-/* Get Schooled */
+/* BANNER SECTION */
+/* GET SCHOOLED */
 .banner h1 {
     font-size: 120px;
     text-align: center; /* center text within container */
@@ -77,7 +79,7 @@ header {
     text-align: center;
 }
 
-/* Button */
+/* HEADER BUTTON */
 .banner-button {
     padding: 10px 20px;
     font-size: 16px;
@@ -90,21 +92,23 @@ header {
     margin-right: auto;
 }
 
-/* Professionals Styles */
+/* LEARN FROM THE PROS */
 .banner h2 {
     text-align: center;
     margin-top: 20px;
 }
 
-/* custom styling for 'learn' */
+/* CUSTOM STYLES FOR 'LEARN' */
 .learn-text {
     color: #C271FF;
 }
 
+/* CUSTOM STYLE: BOLD */
 .bold-text {
     font-weight: bold;
 }
 
+/* PROFILE CONTAINER */
 .profile-container {
     display: flex;
     flex-wrap: wrap; /* Allows items to wrap to the next line if necessary */
@@ -112,12 +116,14 @@ header {
     margin: 0 20px;
 }
 
+/* PROFILE BLOCK */
 .profile-block {
     width: calc(25% - 20px); /* Sets the width of each block to 25% of the container, minus 20px */
     text-align: center; /* centers content inside each block */
     margin: 10px;
 }
 
+/* PROFILE IMAGE */
 .profile-img {
     border-radius: 50%;
     max-width: 116px;
@@ -126,10 +132,12 @@ header {
     margin-bottom: 10px;
 }
 
+/* PROFILE NAME */
 .profile-name {
     font-size: 18;
 }
 
+/* PROFILE DESCRIPTION */
 .profile-desc {
     font-family: 'Source Sans Pro';
     font-weight: normal;
@@ -138,7 +146,7 @@ header {
     opacity: 0.8;
 }
 
-/* Quote Section Styles */
+/* QUOTE SECTION */
 .quote {
     background-color: #C271FF;
     color: #ffffff;
@@ -148,12 +156,14 @@ header {
     align-items: center;
 }
 
+/* QUOTE CONTAINER */
 .quote-container {
     display: flex;
     align-items: center;
     gap: 20px;
 }
 
+/* QUOTE PROFILE IMAGE */
 .quote img {
     border-radius: 50%;
     max-width: 116px;
@@ -162,65 +172,70 @@ header {
     margin-bottom: 10px;
 }
 
+/* QUOTE TEXT */
 .quote blockquote {
     font-family: 'Source Sans Pro';
     font-weight: normal;
     margin: 0;
 }
 
+/* PERSON NAME */
 .person-name {
     font-family: 'Source Sans Pro';
     font-weight: bold;
 }
 
+/* PERSON TITLE */
 .person-title {
     font-family: 'Source Sans Pro';
     font-weight: normal;
     font-style: italic;
 }
 
-/* Video Section Styles */
+/* VIDEO SECTION */
 .video-section {
     background-color: white;
     padding: 20px;
 }
 
+/* VIDEO HEADER CONTAINER */
 .video-header-container {
     text-align: center;
     margin-bottom: 30px;
 }
 
-/* Most popular tutorials Styling*/
+/* MOST POPULAR TUTORIALS HEADER*/
 .most-popular-tutorials {
     font-size: 32px;
     text-align: center;
 }
 
-/* Styles for 'popular' */
+/* CUSTOM STYLE FOR 'LEARN' */
 .video-section h1 span.highlight {
     font-weight: bold;
     color: #C271FF;
 }
 
-/* Styles for 'Most' */
+/* CUSTOM STYLE FOR 'MOST' */
 .video-section h1::before {
     font-weight: normal;
     color: black;
 }
 
-/* Styles for 'tutorials' */
+/* CUSTOM STYLE FOR 'TUTORIALS' */
 .video-section h1::after {
     font-weight: normal;
     color: black;
 }
 
+/* VIDEO CONTAINER STYLES */
 .video-blocks-container {
     display: flex;
     justify-content: space-between;
     gap: 20px;
 }
 
-/* Video Block Styles */
+/* VIDEO BLOCK STYLES */
 .video-block {
     width: calc(25% - 20px);
     height: auto;
@@ -229,6 +244,7 @@ header {
     border-radius: 0;
 }
 
+/* VIDEO BLOCK IMAGE STYLES */
 .video-block img {
     width: 100%;
     height: 150px;
@@ -237,24 +253,24 @@ header {
     margin-bottom: 10px;
 }
 
-/* Video Title */
+/* VIDEO TITLE */
 .video-block h2 {
     margin-top: 10px;
 }
 
-/* Video Description */
+/* VIDEO DESCRIPTION */
 .video-block p {}
 
-/* author info container? */
+/* AUTHOR INFO CONTAINER? */
 .author-info {}
 
-/* Author Image */
+/* AUHTOR IMAGE */
 .author-info img {}
 
-/* Author Name */
+/* AUTHOR NAME */
 .author-info h3 {}
 
-/* Star Rating Styling */
+/* STAR RATING */
 .rating {}
 
 /* MEMBERSHIP SECTION */
@@ -264,47 +280,47 @@ header {
     color: #ffffff;
 }
 
-/* Free Membership Header */
+/* 'FREE MEMBERSHIP' HEADER */
 .membership-heading {
     font-size: 32px;
     font-weight: normal;
     text-align: center;
 }
 
-/* Custom Styling For 'Free' */
+/* CUSTOM STYLE FOR 'FREE' */
 .membership-heading .free {
     font-weight: bold;
     color: #C271FF;
 }
 
-/* Flexbox Container For Membership Blocks */
+/* MEMBERSHIP BLOCKS CONTAINER */
 .membership-container {
     display: flex;
     justify-content: center; /* Distributes space between the blocks */
     gap: 20px; /* Adds space between the blocks */
 }
 
-/* Membership Block Styles */
+/* MEMBERSHIP BLOCK STYLES */
 .membership-block {
     display: inline-flex;
     flex-direction: column;
     align-items: center;
 }
 
-/* Smile School Logo Image For Membership */
+/* PURPLE SMILE LOGO FOR MEMBERSHIP BLOCK */
 .membership-block img {
     width: 50px;
     height: 50px;
     margin: 0 auto;
 }
 
-/* Membership Title */
+/* MEMBERSHIP BLOCK TITLE */
 .membership-block h2 {}
 
-/* Membership Description */
+/* MEMBERSHIP BLOCK DESCRIPTION */
 .membership-block p {}
 
-/* Membership Button Styling */
+/* MEMBERSHIP BUTTON STYLES */
 .button-container button {
     padding: 10px 20px;
     font-size: 16px;
@@ -323,7 +339,7 @@ header {
     padding: 50px 20px; /* Add some padding for spacing */
 }
 
-/* Styling for the FAQ header */
+/* FAQ HEADER STYLES */
 #faq h1 {
     font-size: 36px; /* Adjust the font size */
     text-align: center; /* Center the text */
@@ -331,28 +347,28 @@ header {
     font-weight: bold; /* Make the font bold */
 }
 
-/* Styling for row-blocks */
+/* ROW BLOCKS STYLES */
 .row-block {
     display: flex;
     justify-content: space-between; /* Space out the faq blocks in each row */
     margin-bottom: 20px; /* Add space between rows */
 }
 
-/* Styling for each FAQ block */
+/* FAQ BLOCK STYLES */
 .faq-block {
     flex: 1; /* Allow the blocks to take up equal space */
     padding: 20px; /* Add padding inside the block */
     margin: 10px; /* Add margin around each block */
 }
 
-/* Styling for FAQ block headings */
+/* FAQ BLOCK TITLE 'HOW DOES THIS WORK' STYLES */
 .faq-block h2 {
     font-size: 24px; /* Adjust the heading size */
     margin-bottom: 10px; /* Add space between heading and paragraph */
     color: #071629;
 }
 
-/* Styling for FAQ block paragraphs */
+/* FAQ BLOCK PARAGRAPH TXT STYLES */
 .faq-block p {
     font-size: 16px; /* Adjust the paragraph text size */
     line-height: 1.5; /* Line height for better readability */
