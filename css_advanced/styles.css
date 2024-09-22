@@ -35,6 +35,9 @@ header {
 .svg-logo {
     width: 100px;
     height: 100px;
+    position: relative;
+    left: 100px;
+    top: 30px;
 }
 
 /* NAV MENU CONTAINER */
@@ -54,6 +57,8 @@ header {
     align-items: center; /* vertically center menu items */
     width: auto; /* menu adjusts automatically based on content */
     padding-right: 20px; /* Add padding to push links apart */
+    top: 30px;
+
 }
 
 /* COURSES PRICING LOGIN */
