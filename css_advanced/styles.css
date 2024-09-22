@@ -264,36 +264,45 @@ header {
     color: #ffffff;
 }
 
-/* Style the h1 for the membership section */
+/* Free Membership Header */
 .membership-heading {
     font-size: 32px;
     font-weight: normal;
     text-align: center;
 }
 
-/* Custom Styling for 'free' text */
+/* Custom Styling For 'Free' */
 .membership-heading .free {
     font-weight: bold;
     color: #C271FF;
 }
 
-/* Flexbox container to align membership blocks */
+/* Flexbox Container For Membership Blocks */
 .membership-container {
     display: flex;
-    justify-content: space-between; /* Distributes space between the blocks */
+    justify-content: center; /* Distributes space between the blocks */
     gap: 20px; /* Adds space between the blocks */
-    flex-wrap: wrap; /* Ensures the blocks wrap on smaller screens */
 }
 
-.membership-block {}
+/* Membership Block Styles */
+.membership-block {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+}
 
-.membership-block img {}
+/* Smile School Logo Image For Membership */
+.membership-block img {
+    width: 50px;
+    height: 50px;
+    margin: 0 auto;
+}
 
+/* Membership Title */
 .membership-block h2 {}
 
+/* Membership Description */
 .membership-block p {}
-
-.membership-block:hover {}
 
 /* Membership Button Styling */
 .button-container button {
@@ -306,4 +315,47 @@ header {
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+/* F.A.Q SECTION STYLES */
+#faq {
+    background-color: white; /* Set the background color to white */
+    padding: 50px 20px; /* Add some padding for spacing */
+}
+
+/* Styling for the FAQ header */
+#faq h1 {
+    font-size: 36px; /* Adjust the font size */
+    text-align: center; /* Center the text */
+    margin-bottom: 40px; /* Add some space below the header */
+    font-weight: bold; /* Make the font bold */
+}
+
+/* Styling for row-blocks */
+.row-block {
+    display: flex;
+    justify-content: space-between; /* Space out the faq blocks in each row */
+    margin-bottom: 20px; /* Add space between rows */
+}
+
+/* Styling for each FAQ block */
+.faq-block {
+    flex: 1; /* Allow the blocks to take up equal space */
+    padding: 20px; /* Add padding inside the block */
+    margin: 10px; /* Add margin around each block */
+}
+
+/* Styling for FAQ block headings */
+.faq-block h2 {
+    font-size: 24px; /* Adjust the heading size */
+    margin-bottom: 10px; /* Add space between heading and paragraph */
+    color: #071629;
+}
+
+/* Styling for FAQ block paragraphs */
+.faq-block p {
+    font-size: 16px; /* Adjust the paragraph text size */
+    line-height: 1.5; /* Line height for better readability */
+    color: #071629; /* Lighter color for paragraphs */
+    opacity: 0.5;
 }
