@@ -265,13 +265,45 @@ header {
 }
 
 /* Style the h1 for the membership section */
-.membership h1 {
+.membership-heading {
     font-size: 32px;
     font-weight: normal;
     text-align: center;
 }
 
-.membership h1 .free {
+/* Custom Styling for 'free' text */
+.membership-heading .free {
     font-weight: bold;
     color: #C271FF;
+}
+
+/* Flexbox container to align membership blocks */
+.membership-container {
+    display: flex;
+    justify-content: space-between; /* Distributes space between the blocks */
+    gap: 20px; /* Adds space between the blocks */
+    flex-wrap: wrap; /* Ensures the blocks wrap on smaller screens */
+}
+
+.membership-block {}
+
+.membership-block img {}
+
+.membership-block h2 {}
+
+.membership-block p {}
+
+.membership-block:hover {}
+
+/* Membership Button Styling */
+.button-container button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 20px;
+    background-color: #C271FF;
+    color: #ffffff;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
