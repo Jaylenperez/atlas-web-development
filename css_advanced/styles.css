@@ -359,3 +359,10 @@ header {
     color: #071629; /* Lighter color for paragraphs */
     opacity: 0.5;
 }
+
+/* FOOTER STYLES */
+footer {
+    background-color: #071629;
+    padding: 20px;
+    color: #ffffff;
+}
