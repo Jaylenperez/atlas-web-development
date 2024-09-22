@@ -26,40 +26,40 @@ header {
     font-weight: bold;
     color: #ffffff;
     background-image: url("images/pic_1.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    background-size: cover; /* ensure image covers entire header area */
+    background-position: center; /* center img within header */
+    background-repeat: no-repeat; /* prevents img from repeating if header is larger than img size */
 }
 
 /* SMILE LOGO SVG */
-.svg-logo img {
+.svg-logo {
     width: 100px;
     height: 100px;
 }
 
 /* NAV MENU CONTAINER */
 .nav-container {
-    position: relative;
-    width: 100%;
-    height: 60px;
+    position: relative; /* Allows absolutely positioned elements inside it to be positioned relative to this container */
+    width: 100%; /* make container span full width of page */
+    height: 60px; /* container height*/
 }
 
 /* NAVIGATION MENU */
 .nav-menu {
-    position: absolute;
-    top: 0;
-    right: 0;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: auto;
+    position: absolute; /* position menu absolutely within nav container */
+    top: 0; /* align ttop of menu to top of container */
+    right: 0; /* align menu to right side of container */
+    display: flex; 
+    justify-content: space-between; /* distribute space between menu items */
+    align-items: center; /* vertically center menu items */
+    width: auto; /* menu adjusts automatically based on content */
     padding-right: 20px; /* Add padding to push links apart */
 }
 
 /* COURSES PRICING LOGIN */
 .nav-menu nav a {
-    margin-left: 35px;
-    text-decoration: none;
+    margin-left: 35px; /* add space between each link */
+    text-decoration: none; /* remove underline from links */
     color: #ffffff;
 }
 
