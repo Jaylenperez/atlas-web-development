@@ -32,7 +32,7 @@ header {
 }
 
 /* SMILE LOGO SVG */
-.svg-logo {
+.svg-logo img {
     width: 100px;
     height: 100px;
 }
@@ -232,12 +232,12 @@ header {
 .video-blocks-container {
     display: flex;
     justify-content: space-between;
-    gap: 20px;
+    gap: 5px;
 }
 
 /* VIDEO BLOCK STYLES */
 .video-block {
-    width: calc(25% - 20px);
+    width: calc((100% - 80px) / 4);
     height: auto;
     display: flex;
     flex-direction: column;
