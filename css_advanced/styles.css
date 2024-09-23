@@ -238,6 +238,7 @@ header {
     display: flex;
     justify-content: space-between;
     gap: 5px;
+    flex-direction: row;
 }
 
 /* VIDEO BLOCK STYLES */
