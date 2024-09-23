@@ -215,6 +215,10 @@ header {
     padding: 20px;
 }
 
+.video-section h1 {
+    font-family: 'Source Sans Pro';
+}
+
 /* VIDEO HEADER CONTAINER */
 .video-header-container {
     text-align: center;
@@ -227,10 +231,10 @@ header {
     text-align: center;
 }
 
-/* CUSTOM STYLE FOR 'LEARN' */
+/* CUSTOM STYLE FOR 'POPULAR' */
 .video-section h1 span.highlight {
-    font-weight: bold;
     color: #C271FF;
+    font-weight: bold;
 }
 
 /* CUSTOM STYLE FOR 'MOST' */
