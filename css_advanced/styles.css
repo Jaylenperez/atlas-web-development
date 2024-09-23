@@ -82,6 +82,7 @@ header {
     justify-content: center;
     gap: 20px; /* Adds 20px of space between each item */
     text-align: center;
+    margin-top: -20px;
 }
 
 /* HEADER BUTTON */
@@ -95,12 +96,13 @@ header {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 30px;
 }
 
 /* LEARN FROM THE PROS */
 .banner h2 {
     text-align: center;
-    margin-top: 20px;
+    margin-top: 105px;
 }
 
 /* CUSTOM STYLES FOR 'LEARN' */
@@ -131,9 +133,11 @@ header {
 /* PROFILE IMAGE */
 .profile-img {
     border-radius: 50%;
-    max-width: 116px;
+    max-width: 150px;
+    max-height: 150px;
     width: 100%;
     height: auto;
+    object-fit: cover;
     margin-bottom: 10px;
 }
 
@@ -169,12 +173,19 @@ header {
 }
 
 /* QUOTE PROFILE IMAGE */
-.quote img {
+.quote-container img {
     border-radius: 50%;
     max-width: 116px;
     width: 100%;
     height: auto;
-    margin-bottom: 10px;
+    margin-bottom: 0;
+}
+
+/* QUOTE CONTENT */
+.quote-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 /* QUOTE TEXT */
@@ -188,6 +199,7 @@ header {
 .person-name {
     font-family: 'Source Sans Pro';
     font-weight: bold;
+    margin: 10px 0 5px;
 }
 
 /* PERSON TITLE */
