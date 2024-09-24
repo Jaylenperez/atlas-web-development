@@ -442,8 +442,10 @@ header {
 /* ROW BLOCKS STYLES */
 .row-block {
     display: flex;
-    justify-content: space-between; /* Space out the faq blocks in each row */
-    margin-bottom: 20px; /* Add space between rows */
+    justify-content: space-around; /* Space the blocks evenly around */
+    margin-bottom: 20px;
+    max-width: 900px; /* Restrict the width of the entire row */
+    margin: 0 auto; /* Center the row horizontally */
 }
 
 /* FAQ BLOCK STYLES */
