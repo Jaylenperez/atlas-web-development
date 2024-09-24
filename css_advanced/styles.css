@@ -293,6 +293,7 @@ header {
 /* VIDEO TITLE */
 .video-title {
     margin-top: 10px;
+    margin-bottom: -5px;
     font-size: 16px;
 }
 
@@ -329,7 +330,7 @@ header {
 .rating-and-length-container {
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 150px;
 }
 
 /* STAR RATING STYLES */
