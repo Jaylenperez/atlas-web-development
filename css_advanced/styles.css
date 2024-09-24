@@ -221,36 +221,32 @@ header {
     margin-bottom: 30px;
 }
 
-/* VIDEO HEADER */
-.video-section h1 {
-    font-family: 'Source Sans Pro';
-}
-
-/* MOST POPULAR TUTORIALS HEADER*/
+/* VIDEO HEADER STYLES */
 .most-popular-tutorials {
+    font-family: 'Source Sans Pro';
     font-size: 32px;
     text-align: center;
 }
 
+/* CUSTOM STYLE FOR 'MOST' */
+.most-popular-tutorials::first-word {
+    font-weight: normal;
+    color: black;
+}
+
 /* CUSTOM STYLE FOR 'POPULAR' */
-.video-section h1 span.highlight {
+.highlight {
     color: #C271FF;
     font-weight: bold;
 }
 
-/* CUSTOM STYLE FOR 'MOST' */
-.video-section h1::before {
-    font-weight: normal;
-    color: black;
-}
-
 /* CUSTOM STYLE FOR 'TUTORIALS' */
-.video-section h1::after {
+.most-popular-tutorials::after {
     font-weight: normal;
     color: black;
 }
 
-/* VIDEO CONTAINER STYLES */
+/* VIDEO BLOCK CONTAINER */
 .video-blocks-container {
     display: flex;
     justify-content: space-between;
@@ -266,6 +262,36 @@ header {
     flex-direction: column;
     border-radius: 0;
 }
+
+/* VIDEO THUMBNAIL CONTAINER */
+/* Container Has Thumbnail IMG & Play Button IMG Over Top Of It*/
+.thumbnail-container {}
+
+/* VIDEO THUMBNAIL STYLES */
+/* size of img */
+.video-thumbnail {}
+
+/* PLAY BUTTON STYLES */
+/* size of button img */
+.play-button {}
+
+.info-container {}
+
+.info-container h2 {}
+
+.info-container p {}
+
+.author-container {}
+
+.author-container img {}
+
+.author-container h3 {}
+
+.stars-and-time-container {}
+
+.rating {}
+
+.video-length {}
 
 /* VIDEO BLOCK IMAGE STYLES */
 .video-block img {
