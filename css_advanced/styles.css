@@ -406,6 +406,7 @@ header {
 }
 
 /* MEMBERSHIP BUTTON CONTAINER */
+/* Adds space above and below the button container */
 .button-container {
     margin-top: 40px;
     margin-bottom: 20px;
@@ -413,15 +414,15 @@ header {
 
 /* MEMBERSHIP BUTTON STYLES */
 .button-container button {
-    padding: 10px 20px;
-    font-size: 14px;
-    cursor: pointer;
-    border-radius: 20px;
+    padding: 15px 20px; /* Adds 15px of space vertically and 20px horizontally inside the button */
+    font-size: 14px; /* Sets the font size of the button text to 14px */
+    cursor: pointer; /* Changes the mouse cursor to a pointer when hovering over the button */
+    border-radius: 25px; /* Rounds the button corners with a 20px radius */
     background-color: #C271FF;
     color: #ffffff;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    display: block; /* Makes the button a block-level element */
+    margin-left: auto; 
+    margin-right: auto; 
 }
 
 /* F.A.Q SECTION STYLES */
