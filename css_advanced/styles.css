@@ -472,8 +472,35 @@ header {
 }
 
 /* FOOTER STYLES */
-footer {
+/* FOOTER CONTAINER */
+.footer-container {
+    font-family: 'Source Sans Pro';
     background-color: #071629;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     padding: 20px;
+}
+
+.svg-logo img {
+    display: block;
+}
+
+.social-links {
+    display: flex;
+    align-items: center;
+}
+
+.social-link {
+    margin-left: 15px;
+}
+
+.footer-txt {
+    font-weight: normal;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 14px;
     color: #ffffff;
+    opacity: 0.3515;
 }
