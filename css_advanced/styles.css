@@ -354,20 +354,21 @@ header {
 
 /* MEMBERSHIP SECTION */
 .membership {
+    font-family: 'Source Sans Pro';
     background-color: #071629;
     padding: 20px;
     color: #ffffff;
 }
 
 /* 'FREE MEMBERSHIP' HEADER */
-.membership-heading {
+.membership-header {
     font-size: 32px;
     font-weight: normal;
     text-align: center;
 }
 
 /* CUSTOM STYLE FOR 'FREE' */
-.membership-heading .free {
+.membership-header .free {
     font-weight: bold;
     color: #C271FF;
 }
@@ -388,21 +389,32 @@ header {
 
 /* PURPLE SMILE LOGO FOR MEMBERSHIP BLOCK */
 .membership-block img {
-    width: 50px;
-    height: 50px;
+    width: 43px;
+    height: 35px;
     margin: 0 auto;
 }
 
 /* MEMBERSHIP BLOCK TITLE */
-.membership-block h2 {}
+.membership-block h2 {
+    font-size: 18px;
+}
 
 /* MEMBERSHIP BLOCK DESCRIPTION */
-.membership-block p {}
+.membership-block p {
+    font-size: 18px;
+    text-align: center;
+}
+
+/* MEMBERSHIP BUTTON CONTAINER */
+.button-container {
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
 
 /* MEMBERSHIP BUTTON STYLES */
 .button-container button {
     padding: 10px 20px;
-    font-size: 16px;
+    font-size: 14px;
     cursor: pointer;
     border-radius: 20px;
     background-color: #C271FF;
