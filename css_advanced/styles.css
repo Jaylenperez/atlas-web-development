@@ -426,16 +426,17 @@ header {
 
 /* F.A.Q SECTION STYLES */
 #faq {
+    font-family: 'Source Sans Pro';
     background-color: white; /* Set the background color to white */
     padding: 50px 20px; /* Add some padding for spacing */
 }
 
 /* FAQ HEADER STYLES */
 #faq h1 {
-    font-size: 36px; /* Adjust the font size */
+    font-weight: normal; /* Later change this to light !!!*/
+    font-size: 60px; /* Adjust the font size */
     text-align: center; /* Center the text */
     margin-bottom: 40px; /* Add some space below the header */
-    font-weight: bold; /* Make the font bold */
 }
 
 /* ROW BLOCKS STYLES */
@@ -450,18 +451,19 @@ header {
     flex: 1; /* Allow the blocks to take up equal space */
     padding: 20px; /* Add padding inside the block */
     margin: 10px; /* Add margin around each block */
+    max-width: 350px;
 }
 
 /* FAQ BLOCK TITLE 'HOW DOES THIS WORK' STYLES */
 .faq-block h2 {
-    font-size: 24px; /* Adjust the heading size */
+    font-size: 16px; /* Adjust the heading size */
     margin-bottom: 10px; /* Add space between heading and paragraph */
     color: #071629;
 }
 
 /* FAQ BLOCK PARAGRAPH TXT STYLES */
-.faq-block p {
-    font-size: 16px; /* Adjust the paragraph text size */
+.faq-desc {
+    font-size: 14px; /* Adjust the paragraph text size */
     line-height: 1.5; /* Line height for better readability */
     color: #071629; /* Lighter color for paragraphs */
     opacity: 0.5;
