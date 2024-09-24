@@ -264,19 +264,28 @@ header {
 }
 
 /* VIDEO THUMBNAIL CONTAINER */
-.thumbnail-container {}
+.thumbnail-container {
+    position: relative;
+    display: inline-block;
+}
 
 /* VIDEO THUMBNAIL STYLES */
 .thumbnail-img {
-    width: 255px;
-    height: 154px;
-    object-fit: cover;
-    border-radius: 0;
-    margin-bottom: 10px;
+    display: block;
+    width: 100%;
+    height: auto;
 }
 
 /* PLAY BUTTON STYLES */
-.play-button {}
+.play-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Centers the play button */
+    width: 64px; /* Adjust size as necessary */
+    height: 64px;
+    cursor: pointer;
+}
 
 /* VIDEO TITLE AND DESCRIPTION CONTAINER */
 .info-container {}
