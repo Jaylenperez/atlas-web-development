@@ -24,7 +24,6 @@ body {
 header {
     min-height: 100vh;
     font-family: 'Source Sans Pro';
-    font-weight: bold;
     color: #ffffff;
     background-image: url("images/pic_1.jpg");
     background-size: cover; /* ensure image covers entire header area */
@@ -66,6 +65,7 @@ header {
     width: auto; /* menu adjusts automatically based on content */
     padding-right: 20px; /* Add padding to push links apart */
     top: 30px;
+    font-weight: bold;
 
 }
 
@@ -82,6 +82,7 @@ header {
     font-size: 120px;
     text-align: center; /* center text within container */
     margin: 10vh 0 0 0; /* adds space above text, but no space on the sides or bottom */
+    font-weight: bold;
 }
 
 /* SMILES GRIN LAUGH */
@@ -91,6 +92,7 @@ header {
     gap: 20px; /* Adds 20px of space between each item */
     text-align: center;
     margin-top: -20px;
+    font-weight: bold;
 }
 
 /* HEADER BUTTON */
@@ -115,13 +117,13 @@ header {
 /* CUSTOM STYLES FOR 'LEARN' */
 .learn-text {
     color: #C271FF;
-}
-
-/* CUSTOM STYLE: BOLD */
-.bold-text {
     font-weight: bold;
 }
 
+/* CUSTOM STYLES FOR 'FROM THE PROS' */
+.from-the-pros {
+    font-weight: normal;
+}
 /* PROFILE CONTAINER */
 .profile-container {
     display: flex;
