@@ -1,6 +1,6 @@
 /* CUSTOM FONT: NORMAL */
 @font-face {
-    font-family: 'Source Sans Pro';
+    font-family: 'Source Sans Pro Regular';
     src: url(./fonts/SourceSansPro-Regular.otf) format("opentype");
     font-weight: normal;
     font-style: normal;
@@ -8,7 +8,7 @@
 
 /* CUSTOM FONT: BOLD */
 @font-face {
-    font-family: 'Source Sans Pro';
+    font-family: 'Source Sans Pro Bold';
     src: url(./fonts/SourceSansPro-Bold.otf) format("opentype");
     font-weight: bold;
     font-style: normal;
@@ -16,7 +16,7 @@
 
 /* CUSTOM FONT: LIGHT */
 @font-face {
-    font-family: 'Source Sans Pro';
+    font-family: 'Source Sans Pro Light';
     src: url(./fonts/SourceSansPro-Light.otf) format("opentype");
     font-weight: 300;
     font-style: normal;
@@ -30,11 +30,12 @@ body {
 
 /* HEADER STYLES */
 header {
+    font-family: 'Source Sans Pro Bold';
     min-height: 100vh;
-    font-family: 'Source Sans Pro';
+    background-color: #071629;
     color: #ffffff;
     background-image: url("images/pic_1.jpg");
-    background-size: cover; /* ensure image covers entire header area */
+    background-size: contain;
     background-position: center; /* center img within header */
     background-repeat: no-repeat; /* prevents img from repeating if header is larger than img size */
 }
@@ -87,6 +88,7 @@ header {
 /* BANNER SECTION */
 /* GET SCHOOLED */
 .banner h1 {
+    font-family: 'Source Sans Pro Bold';
     font-size: 120px;
     text-align: center; /* center text within container */
     margin: 10vh 0 0 0; /* adds space above text, but no space on the sides or bottom */
@@ -126,11 +128,13 @@ header {
 /* CUSTOM STYLES FOR 'LEARN' */
 .learn-text {
     color: #C271FF;
+    font-family: 'Source Sans Pro Bold';
     font-weight: bold;
 }
 
 /* CUSTOM STYLES FOR 'FROM THE PROS' */
 .from-the-pros {
+    font-family: 'Source Sans Pro Regular';
     font-weight: normal;
 }
 /* PROFILE CONTAINER */
@@ -161,13 +165,14 @@ header {
 
 /* PROFILE NAME */
 .profile-name {
+    font-family: 'Source Sans Pro Bold';
     font-size: 18px;
     margin-top: -10px; /* this */
 }
 
 /* PROFILE DESCRIPTION */
 .profile-desc {
-    font-family: 'Source Sans Pro';
+    font-family: 'Source Sans Pro Light';
     font-weight: 300;
     font-style: italic;
     font-size: 16px;
@@ -179,7 +184,7 @@ header {
 .quote {
     background-color: #C271FF;
     color: #ffffff;
-    padding: 20px;
+    padding: 60px 60px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -210,23 +215,24 @@ header {
 
 /* QUOTE TEXT */
 .quote blockquote {
-    font-family: 'Source Sans Pro';
+    font-family: 'Source Sans Pro Regular';
     font-weight: normal;
     margin: 0;
 }
 
 /* PERSON NAME */
 .person-name {
-    font-family: 'Source Sans Pro';
+    font-family: 'Source Sans Pro Bold';
     font-weight: bold;
-    margin: 10px 0 5px;
+    margin-bottom: -13px;
 }
 
 /* PERSON TITLE */
 .person-title {
-    font-family: 'Source Sans Pro';
+    font-family: 'Source Sans Pro Light';
     font-weight: normal;
     font-style: italic;
+    margin-bottom: -20px;
 }
 
 /* VIDEO SECTION GENERAL STYLES */
