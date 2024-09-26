@@ -35,7 +35,7 @@ header {
     background-color: #071629;
     color: #ffffff;
     background-image: url("images/pic_1.jpg");
-    background-size: contain;
+    background-size: cover;
     background-position: center; /* center img within header */
     background-repeat: no-repeat; /* prevents img from repeating if header is larger than img size */
 }
@@ -117,6 +117,8 @@ header {
     margin-left: auto; 
     margin-right: auto;
     margin-top: 30px;
+    border: 0;
+    box-shadow: 0px 2px 20px 0px rgb(0, 0, 0, 0.50);
 }
 
 /* LEARN FROM THE PROS */
@@ -237,7 +239,6 @@ header {
 
 /* VIDEO SECTION GENERAL STYLES */
 .video-section {
-    font-family: 'Source Sans Pro';
     background-color: white;
     padding: 20px;
 }
@@ -250,25 +251,24 @@ header {
 
 /* VIDEO HEADER STYLES */
 .most-popular-tutorials {
+    font-family: 'Source Sans Pro Light';
     font-size: 32px;
     text-align: center;
 }
 
 /* CUSTOM STYLE FOR 'MOST' */
 .most-popular-tutorials::first-word {
-    font-weight: normal;
     color: black;
 }
 
 /* CUSTOM STYLE FOR 'POPULAR' */
 .popular {
+    font-family: 'Source Sans Pro Bold';
     color: #C271FF;
-    font-weight: bold;
 }
 
 /* CUSTOM STYLE FOR 'TUTORIALS' */
 .most-popular-tutorials::after {
-    font-weight: normal;
     color: black;
 }
 
@@ -318,6 +318,7 @@ header {
 
 /* VIDEO TITLE */
 .video-title {
+    font-family: 'Source Sans Pro Bold';
     margin-top: 10px;
     margin-bottom: -5px;
     font-size: 16px;
@@ -325,6 +326,7 @@ header {
 
 /* VIDEO DESCRIPTION */
 .video-description {
+    font-family: 'Source Sans Pro Regular';
     opacity: 0.5;
     font-size: 14px;
 }
@@ -346,7 +348,7 @@ header {
 
 /* AUTHOR NAME STYLES */
 .video-author {
-    font-weight: bold;
+    font-family: 'Source Sans Pro Bold';
     color: #C271FF;
     font-size: 14px;
 
@@ -363,6 +365,7 @@ header {
 .rating {
     display: flex;
     align-items: center;
+    gap: 8px;
 }
 
 .rating img {
@@ -372,15 +375,15 @@ header {
 
 /* VIDEO LENGTH STYLES */
 .video-length {
-    font-weight: bold;
+    font-family: 'Source Sans Pro Bold';
     color: #C271FF;
     font-size: 14px;
+    margin-left: -20px;
 }
 
 
 /* MEMBERSHIP SECTION */
 .membership {
-    font-family: 'Source Sans Pro';
     background-color: #071629;
     padding: 20px;
     color: #ffffff;
@@ -388,14 +391,14 @@ header {
 
 /* 'FREE MEMBERSHIP' HEADER */
 .membership-header {
+    font-family: 'Source Sans Pro Light';
     font-size: 32px;
-    font-weight: normal;
     text-align: center;
 }
 
 /* CUSTOM STYLE FOR 'FREE' */
 .membership-header .free {
-    font-weight: bold;
+    font-family: 'Source Sans Pro Bold';
     color: #C271FF;
 }
 
@@ -422,11 +425,13 @@ header {
 
 /* MEMBERSHIP BLOCK TITLE */
 .membership-block h2 {
+    font-family: 'Source Sans Pro Bold';
     font-size: 18px;
 }
 
 /* MEMBERSHIP BLOCK DESCRIPTION */
 .membership-block p {
+    font-family: 'Source Sans Pro Regular';
     font-size: 18px;
     text-align: center;
 }
@@ -442,59 +447,62 @@ header {
 .button-container button {
     padding: 15px 20px; /* Adds 15px of space vertically and 20px horizontally inside the button */
     font-size: 14px; /* Sets the font size of the button text to 14px */
-    cursor: pointer; /* Changes the mouse cursor to a pointer when hovering over the button */
     border-radius: 25px; /* Rounds the button corners with a 20px radius */
     background-color: #C271FF;
     color: #ffffff;
     display: block; /* Makes the button a block-level element */
     margin-left: auto; 
     margin-right: auto;
+    border: 0;
+    box-shadow: 0px 2px 20px 0px rgb(0, 0, 0, 0.50);
 }
 
 /* F.A.Q SECTION STYLES */
 #faq {
-    font-family: 'Source Sans Pro';
-    background-color: white; /* Set the background color to white */
-    padding: 50px 20px; /* Add some padding for spacing */
+    background-color: white;
+    padding: 50px 10px; /* 50px for top and bottom, 20px for left and right */
 }
 
 /* FAQ HEADER STYLES */
 #faq h1 {
-    font-weight: normal; /* Later change this to light !!!*/
-    font-size: 60px; /* Adjust the font size */
-    text-align: center; /* Center the text */
-    margin-bottom: 40px; /* Add some space below the header */
+    font-family: 'Source Sans Pro Light';
+    font-size: 60px; 
+    text-align: center; 
+    margin-bottom: 40px; 
 }
 
 /* ROW BLOCKS STYLES */
 .row-block {
     display: flex;
-    justify-content: space-around; /* Space the blocks evenly around */
+    justify-content: space-around; 
     margin-bottom: 20px;
-    max-width: 900px; /* Restrict the width of the entire row */
-    margin: 0 auto; /* Center the row horizontally */
+    max-width: 900px;
+    margin: 0 auto;
+    gap: 175px;
 }
 
 /* FAQ BLOCK STYLES */
 .faq-block {
-    flex: 1; /* Allow the blocks to take up equal space */
-    padding: 20px; /* Add padding inside the block */
-    margin: 10px; /* Add margin around each block */
+    flex: 1; 
+    padding: 20px;
+    margin: 10px;
     max-width: 350px;
 }
 
 /* FAQ BLOCK TITLE 'HOW DOES THIS WORK' STYLES */
 .faq-block h2 {
-    font-size: 16px; /* Adjust the heading size */
-    margin-bottom: 10px; /* Add space between heading and paragraph */
+    font-family: 'Source Sans Pro Bold';
+    font-size: 16px; 
+    margin-bottom: 10px;
     color: #071629;
 }
 
 /* FAQ BLOCK PARAGRAPH TXT STYLES */
 .faq-desc {
-    font-size: 14px; /* Adjust the paragraph text size */
-    line-height: 1.5; /* Line height for better readability */
-    color: #071629; /* Lighter color for paragraphs */
+    font-family: 'Source Sans Pro Regular';
+    font-size: 14px; 
+    line-height: 1.5; 
+    color: #071629; 
     opacity: 0.5;
 }
 
