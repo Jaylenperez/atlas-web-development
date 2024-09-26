@@ -67,7 +67,7 @@ header {
 .nav-menu {
     position: absolute; /* position menu absolutely within nav container */
     top: 0; /* align ttop of menu to top of container */
-    right: 0; /* align menu to right side of container */
+    right: 150px; /* align menu to right side of container */
     display: flex; 
     justify-content: space-between; /* distribute space between menu items */
     align-items: center; /* vertically center menu items */
@@ -144,7 +144,7 @@ header {
     display: flex;
     flex-wrap: wrap; /* Allows items to wrap to the next line if necessary */
     justify-content: center; /* center profiles horizontally */
-    margin: 0 20px;
+    margin-top: 75px;
 }
 
 /* PROFILE BLOCK */
