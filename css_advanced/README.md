@@ -36,3 +36,5 @@ By the end of this project, you should be able to:
 ## :sparkles: <span id="usage">Usage</span>
 
 **How to access the application locally**
+
+(https://jaylenperez.github.io/atlas-web-development/css_advanced/index.html)
