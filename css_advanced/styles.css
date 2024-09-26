@@ -525,14 +525,21 @@ header {
 }
 
 /* SOCIAL MENU STYLES */
-.social-links {
+.social-menu {
     display: flex;
     align-items: center;
+    margin-right: 180px;
 }
 
 /* SPACE BETWEEN SOCIAL LINKS */
 .social-link {
     margin-left: 10px;
+}
+
+/* FACEBOOK, TWITTER, AND INSTAGRAM SVG ICONS */
+.social-icon {
+    width: 30px;
+    height: 30px;
 }
 
 /* COPYRIGHT */
